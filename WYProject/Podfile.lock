@@ -22,6 +22,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - AVOSCloud (3.2.7)
   - Masonry (0.6.4)
   - MJRefresh (3.1.0)
   - pop (1.0.9)
@@ -35,6 +36,7 @@ PODS:
   - YYKit/no-arc (1.0.2)
 
 DEPENDENCIES:
+  - AVOSCloud
   - Masonry
   - MJRefresh
   - pop (~> 1.0)
@@ -46,6 +48,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AVOSCloud: 957d1508104d7c8ed501df9d9b734d7a98c2e047
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce

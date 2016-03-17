@@ -10,8 +10,11 @@
 #import "WYTabController.h"
 #import "JSPatch/JSPatch.h"
 #import "Bugly/CrashReporter.h"
+#import <AVOSCloud/AVOSCloud.h>
 
 #define CRASH_REPORT_APPID @"900022702"
+#define LEAN_CLOUD_APPID @"n2csir8un13jsuqj12ufo9cc"
+#define LEAN_CLOUD_APPKEY @"lt2nqmemvsrfibz468bcg7xd"
 
 @interface AppDelegate ()
 
@@ -27,6 +30,9 @@
     
     // crash收集上报
     [self reportCrash];
+    
+    // 初始化leanCloud SDK
+    [AVOSCloud setApplicationId:LEAN_CLOUD_APPID clientKey:LEAN_CLOUD_APPKEY];
     
     self.window = [[UIWindow alloc] initWithFrame:SCREEN_BOUNDS];
     WYTabController *tabVC = [WYTabController new];
