@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "WYTabController.h"
+#import "JSPatch/JSPatch.h"
+#import "Bugly/CrashReporter.h"
+
+#define CRASH_REPORT_APPID @"900022702"
 
 @interface AppDelegate ()
 
@@ -16,8 +21,34 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 检查热修复
+//    [self checkForHotfix];
+    
+    // crash收集上报
+    [self reportCrash];
+    
+    self.window = [[UIWindow alloc] initWithFrame:SCREEN_BOUNDS];
+    WYTabController *tabVC = [WYTabController new];
+    self.window.rootViewController = tabVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+- (void)checkForHotfix {
+    [JSPatch testScriptInBundle];
+}
+- (void)reportCrash {
+#if DEBUG == 1
+    [[CrashReporter sharedInstance] enableLog:YES];
+#endif
+    // 设置渠道号
+    [[CrashReporter sharedInstance] setChannel:@"WYProject"];
+    // 设置用户标识  --> [一般是从偏好设置中取到的用户名]
+    [[CrashReporter sharedInstance] setUserId:@"王启镰"];
+    [[CrashReporter sharedInstance] installWithAppId:CRASH_REPORT_APPID];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
