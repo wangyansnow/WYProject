@@ -23,12 +23,15 @@
     [btn addTarget:self action:@selector(handleBtn:) forControlEvents:UIControlEventTouchUpInside];
     [btn setBackgroundColor:[UIColor grayColor]];
     [self.view addSubview:btn];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)handleBtn:(UIButton *)btn {
+    UIViewController *VC = [UIViewController new];
+    VC.view.backgroundColor = [UIColor grayColor];
+    [self.navigationController pushViewController:VC animated:YES];
     
-    NSArray *arr = @[@1, @2];
-    NSLog(@"arr[2] = %@", arr[2]);
 }
 
 

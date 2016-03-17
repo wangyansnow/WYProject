@@ -8,6 +8,7 @@
 
 #import "WYTabController.h"
 #import "WYBaseController.h"
+#import "WYNavigationController.h"
 
 @interface WYTabController ()
 
@@ -59,7 +60,7 @@
     item.image = normalImg;
     item.selectedImage = selectedImg;
     
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:controller];
+    UINavigationController *navi = [[WYNavigationController alloc] initWithRootViewController:controller];
     [self addChildViewController:navi];
 }
 

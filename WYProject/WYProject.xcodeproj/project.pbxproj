@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		733A901D1C99569C00CCC361 /* WYTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A901C1C99569C00CCC361 /* WYTabController.m */; };
-		733A90201C99582600CCC361 /* WYBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A901F1C99582600CCC361 /* WYBaseController.m */; };
 		733A90231C995EB500CCC361 /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A90221C995EB500CCC361 /* JSPatch.framework */; };
 		733A90251C995EC700CCC361 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A90241C995EC700CCC361 /* JavaScriptCore.framework */; };
 		733A90271C995ECF00CCC361 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A90261C995ECF00CCC361 /* libz.tbd */; };
@@ -17,6 +15,11 @@
 		733A902D1C99602B00CCC361 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A902C1C99602B00CCC361 /* SystemConfiguration.framework */; };
 		733A902F1C99603600CCC361 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A902E1C99603600CCC361 /* Security.framework */; };
 		733A90311C9964BD00CCC361 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 733A90301C9964BD00CCC361 /* main.js */; };
+		73D41ABF1C9A4B3A00FA09FB /* WYBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41ABC1C9A4B3A00FA09FB /* WYBaseController.m */; };
+		73D41AC01C9A4B3A00FA09FB /* WYTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41ABE1C9A4B3A00FA09FB /* WYTabController.m */; };
+		73D41AD01C9A52D900FA09FB /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41ACF1C9A52D900FA09FB /* NSArray+Log.m */; };
+		73D41AD31C9A52E800FA09FB /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41AD21C9A52E800FA09FB /* NSDictionary+Log.m */; };
+		73D41AD61C9A542F00FA09FB /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41AD51C9A542F00FA09FB /* WYNavigationController.m */; };
 		73DD47A31C994D5B00B17DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DD47A21C994D5B00B17DFE /* main.m */; };
 		73DD47A61C994D5B00B17DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DD47A51C994D5B00B17DFE /* AppDelegate.m */; };
 		73DD47AE1C994D5B00B17DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DD47AD1C994D5B00B17DFE /* Assets.xcassets */; };
@@ -24,10 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		733A901B1C99569C00CCC361 /* WYTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTabController.h; sourceTree = "<group>"; };
-		733A901C1C99569C00CCC361 /* WYTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTabController.m; sourceTree = "<group>"; };
-		733A901E1C99582600CCC361 /* WYBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseController.h; sourceTree = "<group>"; };
-		733A901F1C99582600CCC361 /* WYBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseController.m; sourceTree = "<group>"; };
 		733A90221C995EB500CCC361 /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
 		733A90241C995EC700CCC361 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		733A90261C995ECF00CCC361 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -36,6 +35,19 @@
 		733A902C1C99602B00CCC361 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		733A902E1C99603600CCC361 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		733A90301C9964BD00CCC361 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		73D41ABB1C9A4B3A00FA09FB /* WYBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseController.h; sourceTree = "<group>"; };
+		73D41ABC1C9A4B3A00FA09FB /* WYBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseController.m; sourceTree = "<group>"; };
+		73D41ABD1C9A4B3A00FA09FB /* WYTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTabController.h; sourceTree = "<group>"; };
+		73D41ABE1C9A4B3A00FA09FB /* WYTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTabController.m; sourceTree = "<group>"; };
+		73D41AC31C9A4C0800FA09FB /* WYCommonConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCommonConst.h; sourceTree = "<group>"; };
+		73D41AC41C9A4C2400FA09FB /* WYServerAPIConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYServerAPIConst.h; sourceTree = "<group>"; };
+		73D41AC51C9A4C2F00FA09FB /* WYNotificationConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYNotificationConst.h; sourceTree = "<group>"; };
+		73D41ACE1C9A52D900FA09FB /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		73D41ACF1C9A52D900FA09FB /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		73D41AD11C9A52E800FA09FB /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		73D41AD21C9A52E800FA09FB /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		73D41AD41C9A542F00FA09FB /* WYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNavigationController.h; sourceTree = "<group>"; };
+		73D41AD51C9A542F00FA09FB /* WYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationController.m; sourceTree = "<group>"; };
 		73DD479E1C994D5B00B17DFE /* WYProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73DD47A21C994D5B00B17DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73DD47A41C994D5B00B17DFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,24 +76,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		733A90191C99566F00CCC361 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				733A901B1C99569C00CCC361 /* WYTabController.h */,
-				733A901C1C99569C00CCC361 /* WYTabController.m */,
-				733A901E1C99582600CCC361 /* WYBaseController.h */,
-				733A901F1C99582600CCC361 /* WYBaseController.m */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		733A901A1C99566F00CCC361 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
 		733A90211C995EAB00CCC361 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +88,63 @@
 				733A90221C995EB500CCC361 /* JSPatch.framework */,
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		73D41AB91C9A4B3A00FA09FB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				73D41ABA1C9A4B3A00FA09FB /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		73D41ABA1C9A4B3A00FA09FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				73D41ABB1C9A4B3A00FA09FB /* WYBaseController.h */,
+				73D41ABC1C9A4B3A00FA09FB /* WYBaseController.m */,
+				73D41ABD1C9A4B3A00FA09FB /* WYTabController.h */,
+				73D41ABE1C9A4B3A00FA09FB /* WYTabController.m */,
+				73D41AD41C9A542F00FA09FB /* WYNavigationController.h */,
+				73D41AD51C9A542F00FA09FB /* WYNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		73D41AC11C9A4B6500FA09FB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		73D41AC21C9A4B9F00FA09FB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				73D41AC31C9A4C0800FA09FB /* WYCommonConst.h */,
+				73D41AC41C9A4C2400FA09FB /* WYServerAPIConst.h */,
+				73D41AC51C9A4C2F00FA09FB /* WYNotificationConst.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		73D41AC61C9A527C00FA09FB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				73D41AC71C9A529500FA09FB /* Foundation */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		73D41AC71C9A529500FA09FB /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				73D41ACE1C9A52D900FA09FB /* NSArray+Log.h */,
+				73D41ACF1C9A52D900FA09FB /* NSArray+Log.m */,
+				73D41AD11C9A52E800FA09FB /* NSDictionary+Log.h */,
+				73D41AD21C9A52E800FA09FB /* NSDictionary+Log.m */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		73DD47951C994D5B00B17DFE = {
@@ -115,9 +166,11 @@
 		73DD47A01C994D5B00B17DFE /* WYProject */ = {
 			isa = PBXGroup;
 			children = (
+				73D41AC61C9A527C00FA09FB /* Categories */,
+				73D41AB91C9A4B3A00FA09FB /* Classes */,
+				73D41AC11C9A4B6500FA09FB /* Tools */,
 				733A90211C995EAB00CCC361 /* Framework */,
-				733A90191C99566F00CCC361 /* Main */,
-				733A901A1C99566F00CCC361 /* Tool */,
+				73D41AC21C9A4B9F00FA09FB /* Headers */,
 				73DD47A41C994D5B00B17DFE /* AppDelegate.h */,
 				73DD47A51C994D5B00B17DFE /* AppDelegate.m */,
 				73DD47AD1C994D5B00B17DFE /* Assets.xcassets */,
@@ -208,10 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				733A90201C99582600CCC361 /* WYBaseController.m in Sources */,
+				73D41AD01C9A52D900FA09FB /* NSArray+Log.m in Sources */,
+				73D41AD31C9A52E800FA09FB /* NSDictionary+Log.m in Sources */,
 				73DD47A61C994D5B00B17DFE /* AppDelegate.m in Sources */,
-				733A901D1C99569C00CCC361 /* WYTabController.m in Sources */,
+				73D41AD61C9A542F00FA09FB /* WYNavigationController.m in Sources */,
 				73DD47A31C994D5B00B17DFE /* main.m in Sources */,
+				73D41ABF1C9A4B3A00FA09FB /* WYBaseController.m in Sources */,
+				73D41AC01C9A4B3A00FA09FB /* WYTabController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,10 +9,10 @@
 #ifndef WYProject_pch
 #define WYProject_pch
 
-#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
-#define APP_WIDTH SCREEN_BOUNDS.size.width
-#define APP_HEIGHT SCREEN_BOUNDS.size.height
-#define SCALE [UIScreen mainScreen].scale
+
 
 
 #endif /* WYProject_pch */
+
+
+#import "WYCommonConst.h"
