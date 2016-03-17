@@ -1,0 +1,9 @@
+platform :ios, "7.0"
+
+pod "MJRefresh"
+pod 'UMengSocial', '~> 4.3'
+pod 'YYKit'
+pod 'YTKNetwork'
+pod 'pop', '~> 1.0'
+pod 'SVProgressHUD'
+pod 'Masonry'
