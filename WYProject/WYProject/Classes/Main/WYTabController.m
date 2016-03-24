@@ -38,9 +38,10 @@
 }
 
 - (void)initialAllChildViewController {
-    [self addChildControllerName:@"WYBaseController" normalImage:@"icon_tab_angel_default" selectedImage:@"icon_tab_angel_activation" title:@"天使"];
-    [self addChildControllerName:@"WYBaseController" normalImage:@"icon_tab_discover_default" selectedImage:@"icon_tab_discover_activation" title:@"发现"];
-    [self addChildControllerName:@"WYBaseController" normalImage:@"icon_tab_message_default" selectedImage:@"icon_tab_message_activation" title:@"消息"];
+    [self addChildControllerName:@"WYBaseController" normalImage:@"icon_tab_message_default" selectedImage:@"icon_tab_message_activation" title:@"会话"];
+//    [self addChildControllerName:@"WYBaseController" normalImage:@"icon_tab_angel_default" selectedImage:@"icon_tab_angel_activation" title:@"天使"];
+    [self addChildControllerName:@"WYBaseController" normalImage:@"icon_tab_discover_default" selectedImage:@"icon_tab_discover_activation" title:@"联系人"];
+    
     [self addChildControllerName:@"WYBaseController" normalImage:@"icon_tab_mine_default" selectedImage:@"icon_tab_mine_activation" title:@"我"];
     
 }

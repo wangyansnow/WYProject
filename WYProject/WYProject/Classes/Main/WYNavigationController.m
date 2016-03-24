@@ -23,6 +23,8 @@
     _navBarhairlineImageView = [self getNavHairlineImageViewUnder:self.navigationBar];
     _titles = [NSMutableArray new];
     [self initialScreenGesture];
+    self.navigationBar.barTintColor = [UIColor blackColor];
+    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor colorWithWhite:0.9 alpha:1.0]};
 }
 
 - (void)initialScreenGesture {

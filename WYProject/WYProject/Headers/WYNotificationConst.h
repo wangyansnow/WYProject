@@ -11,3 +11,5 @@
 
 
 #endif /* WYNotificationConst_h */
+
+static NSString *const Notify_SwitchRootViewController = @"SwitchRootViewController";

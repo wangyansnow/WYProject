@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2A0EA50DB180F20DCC238159 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D945510F75353AF7758AE2EE /* libPods.a */; };
+		73200F711CA29CF2001D51DA /* WYLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73200F6F1CA29CF2001D51DA /* WYLoginController.m */; };
+		73200F721CA29CF2001D51DA /* WYLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73200F701CA29CF2001D51DA /* WYLoginController.xib */; };
+		73200F761CA29D01001D51DA /* WYRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73200F741CA29D01001D51DA /* WYRegisterController.m */; };
+		73200F771CA29D01001D51DA /* WYRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73200F751CA29D01001D51DA /* WYRegisterController.xib */; };
 		733A90231C995EB500CCC361 /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A90221C995EB500CCC361 /* JSPatch.framework */; };
 		733A90251C995EC700CCC361 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A90241C995EC700CCC361 /* JavaScriptCore.framework */; };
 		733A90271C995ECF00CCC361 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A90261C995ECF00CCC361 /* libz.tbd */; };
@@ -16,11 +20,11 @@
 		733A902D1C99602B00CCC361 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A902C1C99602B00CCC361 /* SystemConfiguration.framework */; };
 		733A902F1C99603600CCC361 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A902E1C99603600CCC361 /* Security.framework */; };
 		733A90311C9964BD00CCC361 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 733A90301C9964BD00CCC361 /* main.js */; };
+		7364126F1CA27FC900FB50C7 /* WYNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7364126E1CA27FC900FB50C7 /* WYNewFeatureController.m */; };
+		736412721CA2836000FB50C7 /* WYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 736412711CA2836000FB50C7 /* WYUser.m */; };
 		73D41ABF1C9A4B3A00FA09FB /* WYBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41ABC1C9A4B3A00FA09FB /* WYBaseController.m */; };
 		73D41AC01C9A4B3A00FA09FB /* WYTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41ABE1C9A4B3A00FA09FB /* WYTabController.m */; };
-		73D41AD01C9A52D900FA09FB /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41ACF1C9A52D900FA09FB /* NSArray+Log.m */; };
-		73D41AD31C9A52E800FA09FB /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41AD21C9A52E800FA09FB /* NSDictionary+Log.m */; };
-		73D41AD61C9A542F00FA09FB /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41AD51C9A542F00FA09FB /* WYNavigationController.m */; };
+		73D41AD61C9A542F00FA09FB /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D41AD51C9A542F00FA09FB /* WYNavigationController.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		73DD47A31C994D5B00B17DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DD47A21C994D5B00B17DFE /* main.m */; };
 		73DD47A61C994D5B00B17DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DD47A51C994D5B00B17DFE /* AppDelegate.m */; };
 		73DD47AE1C994D5B00B17DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DD47AD1C994D5B00B17DFE /* Assets.xcassets */; };
@@ -28,6 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73200F6E1CA29CF2001D51DA /* WYLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLoginController.h; sourceTree = "<group>"; };
+		73200F6F1CA29CF2001D51DA /* WYLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLoginController.m; sourceTree = "<group>"; };
+		73200F701CA29CF2001D51DA /* WYLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYLoginController.xib; sourceTree = "<group>"; };
+		73200F731CA29D01001D51DA /* WYRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYRegisterController.h; sourceTree = "<group>"; };
+		73200F741CA29D01001D51DA /* WYRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYRegisterController.m; sourceTree = "<group>"; };
+		73200F751CA29D01001D51DA /* WYRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYRegisterController.xib; sourceTree = "<group>"; };
 		733A90221C995EB500CCC361 /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
 		733A90241C995EC700CCC361 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		733A90261C995ECF00CCC361 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -36,6 +46,10 @@
 		733A902C1C99602B00CCC361 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		733A902E1C99603600CCC361 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		733A90301C9964BD00CCC361 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		7364126D1CA27FC900FB50C7 /* WYNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNewFeatureController.h; sourceTree = "<group>"; };
+		7364126E1CA27FC900FB50C7 /* WYNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewFeatureController.m; sourceTree = "<group>"; };
+		736412701CA2836000FB50C7 /* WYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYUser.h; sourceTree = "<group>"; };
+		736412711CA2836000FB50C7 /* WYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYUser.m; sourceTree = "<group>"; };
 		73D41ABB1C9A4B3A00FA09FB /* WYBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseController.h; sourceTree = "<group>"; };
 		73D41ABC1C9A4B3A00FA09FB /* WYBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseController.m; sourceTree = "<group>"; };
 		73D41ABD1C9A4B3A00FA09FB /* WYTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTabController.h; sourceTree = "<group>"; };
@@ -43,10 +57,6 @@
 		73D41AC31C9A4C0800FA09FB /* WYCommonConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCommonConst.h; sourceTree = "<group>"; };
 		73D41AC41C9A4C2400FA09FB /* WYServerAPIConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYServerAPIConst.h; sourceTree = "<group>"; };
 		73D41AC51C9A4C2F00FA09FB /* WYNotificationConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYNotificationConst.h; sourceTree = "<group>"; };
-		73D41ACE1C9A52D900FA09FB /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
-		73D41ACF1C9A52D900FA09FB /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
-		73D41AD11C9A52E800FA09FB /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
-		73D41AD21C9A52E800FA09FB /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 		73D41AD41C9A542F00FA09FB /* WYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNavigationController.h; sourceTree = "<group>"; };
 		73D41AD51C9A542F00FA09FB /* WYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationController.m; sourceTree = "<group>"; };
 		73DD479E1C994D5B00B17DFE /* WYProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,10 +114,164 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
+		7364125B1CA2758D00FB50C7 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7364125C1CA2758D00FB50C7 /* Controller */,
+				7364125D1CA2758D00FB50C7 /* Model */,
+				7364125E1CA2758D00FB50C7 /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		7364125C1CA2758D00FB50C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7364125D1CA2758D00FB50C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7364125E1CA2758D00FB50C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7364125F1CA2758D00FB50C7 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				736412601CA2758D00FB50C7 /* Controller */,
+				736412611CA2758D00FB50C7 /* Model */,
+				736412621CA2758D00FB50C7 /* View */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		736412601CA2758D00FB50C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		736412611CA2758D00FB50C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		736412621CA2758D00FB50C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		736412631CA2758D00FB50C7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				736412641CA2758D00FB50C7 /* Controller */,
+				736412651CA2758D00FB50C7 /* Model */,
+				736412661CA2758D00FB50C7 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		736412641CA2758D00FB50C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73200F6E1CA29CF2001D51DA /* WYLoginController.h */,
+				73200F6F1CA29CF2001D51DA /* WYLoginController.m */,
+				73200F701CA29CF2001D51DA /* WYLoginController.xib */,
+				73200F731CA29D01001D51DA /* WYRegisterController.h */,
+				73200F741CA29D01001D51DA /* WYRegisterController.m */,
+				73200F751CA29D01001D51DA /* WYRegisterController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		736412651CA2758D00FB50C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				736412701CA2836000FB50C7 /* WYUser.h */,
+				736412711CA2836000FB50C7 /* WYUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		736412661CA2758D00FB50C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		736412671CA2758D00FB50C7 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				736412681CA2758D00FB50C7 /* Controller */,
+				736412691CA2758D00FB50C7 /* Model */,
+				7364126A1CA2758D00FB50C7 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		736412681CA2758D00FB50C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		736412691CA2758D00FB50C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7364126A1CA2758D00FB50C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7364126B1CA27E9300FB50C7 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				7364126C1CA27E9300FB50C7 /* Controller */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		7364126C1CA27E9300FB50C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7364126D1CA27FC900FB50C7 /* WYNewFeatureController.h */,
+				7364126E1CA27FC900FB50C7 /* WYNewFeatureController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		73D41AB91C9A4B3A00FA09FB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				73D41ABA1C9A4B3A00FA09FB /* Main */,
+				7364125B1CA2758D00FB50C7 /* Chat */,
+				7364125F1CA2758D00FB50C7 /* Contacts */,
+				736412671CA2758D00FB50C7 /* Me */,
+				736412631CA2758D00FB50C7 /* Login */,
+				7364126B1CA27E9300FB50C7 /* NewFeature */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -145,20 +309,8 @@
 		73D41AC61C9A527C00FA09FB /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				73D41AC71C9A529500FA09FB /* Foundation */,
 			);
 			path = Categories;
-			sourceTree = "<group>";
-		};
-		73D41AC71C9A529500FA09FB /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				73D41ACE1C9A52D900FA09FB /* NSArray+Log.h */,
-				73D41ACF1C9A52D900FA09FB /* NSArray+Log.m */,
-				73D41AD11C9A52E800FA09FB /* NSDictionary+Log.h */,
-				73D41AD21C9A52E800FA09FB /* NSDictionary+Log.m */,
-			);
-			path = Foundation;
 			sourceTree = "<group>";
 		};
 		73DD47951C994D5B00B17DFE = {
@@ -191,7 +343,6 @@
 				73DD47A51C994D5B00B17DFE /* AppDelegate.m */,
 				73DD47AD1C994D5B00B17DFE /* Assets.xcassets */,
 				73DD47AF1C994D5B00B17DFE /* LaunchScreen.storyboard */,
-				73DD47B21C994D5B00B17DFE /* Info.plist */,
 				73DD47A11C994D5B00B17DFE /* Supporting Files */,
 			);
 			path = WYProject;
@@ -200,6 +351,7 @@
 		73DD47A11C994D5B00B17DFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				73DD47B21C994D5B00B17DFE /* Info.plist */,
 				733A90301C9964BD00CCC361 /* main.js */,
 				73DD47A21C994D5B00B17DFE /* main.m */,
 				73DD47BA1C99500300B17DFE /* WYProject.pch */,
@@ -277,7 +429,9 @@
 			files = (
 				73DD47B11C994D5B00B17DFE /* LaunchScreen.storyboard in Resources */,
 				733A90311C9964BD00CCC361 /* main.js in Resources */,
+				73200F771CA29D01001D51DA /* WYRegisterController.xib in Resources */,
 				73DD47AE1C994D5B00B17DFE /* Assets.xcassets in Resources */,
+				73200F721CA29CF2001D51DA /* WYLoginController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,12 +490,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D41AD01C9A52D900FA09FB /* NSArray+Log.m in Sources */,
-				73D41AD31C9A52E800FA09FB /* NSDictionary+Log.m in Sources */,
 				73DD47A61C994D5B00B17DFE /* AppDelegate.m in Sources */,
 				73D41AD61C9A542F00FA09FB /* WYNavigationController.m in Sources */,
 				73DD47A31C994D5B00B17DFE /* main.m in Sources */,
+				73200F711CA29CF2001D51DA /* WYLoginController.m in Sources */,
+				7364126F1CA27FC900FB50C7 /* WYNewFeatureController.m in Sources */,
 				73D41ABF1C9A4B3A00FA09FB /* WYBaseController.m in Sources */,
+				736412721CA2836000FB50C7 /* WYUser.m in Sources */,
+				73200F761CA29D01001D51DA /* WYRegisterController.m in Sources */,
 				73D41AC01C9A4B3A00FA09FB /* WYTabController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

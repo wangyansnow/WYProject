@@ -62,4 +62,9 @@
 #define IS_IOS_8 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) ? YES : NO)
 #define IS_IOS_9 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0) ? YES : NO)
 
+/** SandBox Key **/
+#define SANDBOX_VERSION_KEY @"sandBoxVersionKey"
+
+/** Import Headers **/
+#import <Masonry/Masonry.h>
 

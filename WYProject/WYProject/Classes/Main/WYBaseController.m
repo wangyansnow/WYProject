@@ -19,18 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 50)];
-    [btn setTitle:@"Push JPTableViewController" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(handleBtn:) forControlEvents:UIControlEventTouchUpInside];
-    [btn setBackgroundColor:[UIColor grayColor]];
-    [self.view addSubview:btn];
-    
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    
-    AVObject *testObject = [AVObject objectWithClassName:@"TestObject"];
-    [testObject setObject:@"王启镰" forKey:@"name"];
-    [testObject save];
+//    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 50)];
+//    [btn setTitle:@"Push JPTableViewController" forState:UIControlStateNormal];
+//    [btn addTarget:self action:@selector(handleBtn:) forControlEvents:UIControlEventTouchUpInside];
+//    [btn setBackgroundColor:[UIColor grayColor]];
+//    [self.view addSubview:btn];
+//    
+//    AVObject *testObject = [AVObject objectWithClassName:@"TestObject"];
+//    [testObject setObject:@"王启镰" forKey:@"name"];
+//    [testObject saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+//        
+//    }];
 }
 
 - (void)handleBtn:(UIButton *)btn {
