@@ -25,7 +25,7 @@
     [self.view addSubview:btn];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    NSLog(@"ddfssdf");
+
 }
 
 - (void)handleBtn:(UIButton *)btn {
